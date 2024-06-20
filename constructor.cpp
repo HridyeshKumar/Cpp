@@ -17,9 +17,14 @@ Rectangle(Rectangle& r){ //copy constructor - initialise an obj by another exist
 l=r.l;
 b=r.b;
 }
+~Rectangle(){ //Destructor
+  cout<<"Destructor is called";
 };
 
 int main(){
+Rectangle* r0=new Rectangle();
+cout<<r0-><<" "<<r0->b<<endl;
+delete r0;
 Rectangle r1;
 cout<<r1.l<<" "<<r1.b<<endl;
 Rectangle r2(3,4);
