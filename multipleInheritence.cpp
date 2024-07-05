@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class Parent1{
 public:
   Parent(){
