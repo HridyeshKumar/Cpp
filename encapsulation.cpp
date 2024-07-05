@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class ABC{
   int x;
   public:
