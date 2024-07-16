@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     double numerator, denominator, divide;
     cout << "Enter numerator: ";
