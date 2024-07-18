@@ -1,5 +1,4 @@
 #include <iostream>
-
 // Class template for a Pair
 template <typename T>
 class Pair {
