@@ -14,6 +14,7 @@ class Addition{
             std::cout<<"The sum of "<<num1<<" and "<<num2<<" is "<<sum<<std::endl;
         }
 };
+
 int main(){
     Addition add;
     add.input();
