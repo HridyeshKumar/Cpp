@@ -4,7 +4,7 @@ class Addition{
         int num1,num2,sum;
     public:
         void input(){
-            std::cout<<"Enter two number:";
+            std::cout<<"Enter two number:"; 
             std::cin>>num1>>num2;
         }
         void calculate(){
